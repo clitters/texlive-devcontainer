@@ -1,0 +1,34 @@
+selected_scheme scheme-basic
+TEXDIR /usr/local/texlive
+TEXMFCONFIG ~/.texlive/texmf-config
+TEXMFHOME ~/texmf
+TEXMFLOCAL /usr/local/texlive/texmf-local
+TEXMFSYSCONFIG /usr/local/texlive/texmf-config
+TEXMFSYSVAR /usr/local/texlive/texmf-var
+TEXMFVAR ~/.texlive/texmf-var
+
+collection-bibtexextra 1
+collection-binextra 1
+collection-context 1
+collection-fontsextra 1
+collection-fontsrecommended 1
+collection-fontutils 1
+collection-formatsextra 1
+collection-humanities 1
+collection-langchinese 1
+collection-langcjk 1
+collection-langenglish 1
+collection-langjapanese 1
+collection-latex 1
+collection-latexextra 1
+collection-latexrecommended 1
+collection-luatex 1
+collection-mathscience 1
+collection-metapost 1
+collection-pictures 1
+collection-plaingeneric 1
+collection-publishers 1
+collection-xetex 1
+
+option_doc 0
+option_src 0
