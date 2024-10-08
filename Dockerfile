@@ -11,6 +11,7 @@ RUN apt-get update -qq \
 
 USER vscode
 
-RUN tlmgr init-usertree \
+RUN update-tlmgr-latest.sh --update \
+    && tlmgr init-usertree \
     && tlmgr option repository http://mirror.ctan.org/systems/texlive/tlnet \
     && tlmgr update --self --all 
